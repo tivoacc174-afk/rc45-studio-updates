@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.2.2 — Short in-app release notes
+
+This release changes how update information is displayed, without shortening the full GitHub changelog.
+
+- The Updates page and download confirmation show at most three concise points instead of the complete release text.
+- Added a Full changelog action linking to the complete GitHub history. TVs without a browser show the address for opening on another device.
+- The update manifest now supports a separate shortNotes field. Full notes remain intact for GitHub and backward compatibility.
+- Older releases without shortNotes are displayed using a bounded excerpt of their existing change bullets; no release text is rewritten on GitHub.
+- Long lines are safely shortened for TV readability, including Unicode text.
+
+Button mappings, Accessibility permission handling, launcher artwork, APK checksum/signature verification and Android's installation warnings are unchanged. The app still requires explicit installation confirmation and cannot bypass Android Restricted settings.
+
 ## 1.2.1 — Accessibility recovery and status
 
 - Fixed stale connected-state reporting when Android unbinds the Accessibility service; pending gestures are cancelled and connection state is cleared.
