@@ -29,3 +29,9 @@ may be handled directly by the device firmware rather than Android key filtering
 
 RockTek RC45 product imagery referenced by the app: [TV4U product page](https://tv4u.com.ua/ru/product/rocktek-rc45/).
 RockTek is a product brand; this personal app is not an official RockTek firmware update service.
+
+## Accessibility after APK updates
+
+On some Android 13+ TV builds, an APK update can require Accessibility approval again. If the switch immediately turns off, open RC45 Studio > Settings > Accessibility help. Use Allow restricted settings in Android App info if your TV offers it. Some firmware hides this menu; a trusted device administrator may need the per-app recovery described in the app. RC45 Studio never grants itself Accessibility or weakens global security.
+
+See [CHANGELOG.md](CHANGELOG.md) for the 1.2.1 recovery and service-status fixes.
