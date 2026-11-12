@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.3 — TV browser fallback
+
+- Retains the three-point in-app summaries introduced in 1.2.2; complete release details stay on GitHub.
+- Recognizes Android TV's placeholder browser handler, which is not a usable browser. Full changelog now shows its address for opening on another device when no real browser is installed, rather than opening the placeholder's error screen.
+- No changes to mappings, Accessibility handling, artwork or update verification.
+
 ## 1.2.2 — Short in-app release notes
 
 This release changes how update information is displayed, without shortening the full GitHub changelog.
